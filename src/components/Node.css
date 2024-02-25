@@ -1,7 +1,13 @@
 .node {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
+  min-width: 45px;
+  min-height: 45px;
+
+  border: none;
+  border-radius: 50%;
   background-color: #00ced1;
 }

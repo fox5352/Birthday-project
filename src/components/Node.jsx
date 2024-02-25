@@ -1,23 +1,17 @@
+import "./Node.css"
 
-const style = StyleSheet.create({
-  display: 'flex',
-  flexDirection: 'column',
-  justifyContent: 'center',
-  position: 'absolute',
-  top: '50%',
-  left: '50%',
-  transform: 'translate(-50%, -50%)',
-  minWidth: '40px',
-  minHeight: '40px',
-  borderRadius: '50%',
-  backgroundColor: '#00ced1',
-  color: 'white',
-})
 
 // eslint-disable-next-line react/prop-types, no-unused-vars
-export default function Node({fromPos, pos, ...children}){
+export default function Node({fromPos={x:0, y:0}, pos={x:0, y:0}, picList=[]}){
+
+  /*
+  TODO: post sets pos of node
+  TODO: draw a line from pos to from pos
+  TODO: load a picture
+  */
+
   return (
-    <div className={style}>
+    <div className={"node"}>
     </div>
   )
 }
