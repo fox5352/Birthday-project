@@ -10,6 +10,9 @@
   --color-two: #213547;
   --color-three: rgba(255, 255, 255, 0.87);
 
+  --dur-slow: 450ms;
+  --dur-medium: 300ms;
+  --dur-fast: 250ms;
 
   /* text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
